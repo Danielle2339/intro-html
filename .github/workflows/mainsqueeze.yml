@@ -1,0 +1,17 @@
+name: queens
+
+on: [push]
+
+jobs: small
+  build: tight
+
+    runs-on: ubuntu-latest
+
+    steps:  one, two, three
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: four, five, six
+        echo Add other actions to build,
+        echo test, and deploy your project.
