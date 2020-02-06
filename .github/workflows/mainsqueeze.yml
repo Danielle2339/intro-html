@@ -1,4 +1,4 @@
-name: queens
+name: CI
 
 on: [push]
 
